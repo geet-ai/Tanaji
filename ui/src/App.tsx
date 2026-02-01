@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Geet-AI. All rights reserved.
+// This code is proprietary and confidential.
+
 import { Routes, Route, Navigate } from "react-router-dom";
 import { useAuth } from "./hooks/useAuth";
 import Layout from "./components/Layout";

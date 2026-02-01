@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Geet-AI. All rights reserved.
+# This code is proprietary and confidential.
+
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package.json ./

@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Geet-AI. All rights reserved.
+// This code is proprietary and confidential.
+
 import { createContext, useContext, useState, ReactNode } from "react";
 
 const TOKEN_KEY = "tanaji_token";
@@ -29,6 +32,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
 export function useAuth() {
   const ctx = useContext(AuthContext);
-  if (!ctx) return { token: localStorage.getItem(TOKEN_KEY), setToken: () => {}, logout: () => {} };
+  if (!ctx) return { token: localStorage.getItem(TOKEN_KEY), setToken: () => { }, logout: () => { } };
   return ctx;
 }

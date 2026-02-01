@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Geet-AI. All rights reserved.
+# This code is proprietary and confidential.
+
 FROM python:3.11-slim
 
 WORKDIR /app

@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Geet-AI. All rights reserved.
+// This code is proprietary and confidential.
+
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../hooks/useAuth";

@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Geet-AI. All rights reserved.
+# This code is proprietary and confidential.
+
 """Users router - profile and management."""
 
 from fastapi import APIRouter, Depends
